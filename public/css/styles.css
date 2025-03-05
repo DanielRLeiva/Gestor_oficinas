@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    background-color: lightseagreen;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+span {
+    color: darkblue;
+}
+
+.lista-oficinas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;    
+}
+ 
+.lista-oficinas li {
+    list-style: none;
+    background-color: aquamarine;
+    border: 1px solid lightseagreen;
+    transition: font-size 0.2s ease;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.lista-oficinas li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.lista-oficinas li a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 80%;
+    overflow: hidden;
+}
+th, td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.boton, button {
+    text-decoration: none;
+    font-weight:bold;
+    color: darkblue;
+    background-color: lightseagreen;
+    padding: 8px;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease;
+}
+
+.boton:hover,
+button:hover,
+.boton-cancelar:hover {
+    transform: scale(1.1);
+}
+
+.boton.tabla:hover {
+    font-size: 18px;
+}
+
+button {
+    font-size: 17px;
+}
+
+.button-submit {
+    margin-top: 20px;
+}
+
+input {
+    background-color: aquamarine;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+form label {
+    font-size: 18px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+form input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.boton-cancelar {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.lista-empleado {
+    list-style: none;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.lista-empleado li {
+    margin: 10px;
+}
+
+.seleccion{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.seleccion select {
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
